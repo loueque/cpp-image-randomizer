@@ -3,6 +3,7 @@
 		"xiosbase": "cpp",
 		"xlocale": "cpp",
 		"xmemory": "cpp",
-		"thread": "cpp"
+		"thread": "cpp",
+		"ostream": "cpp"
 	}
 }

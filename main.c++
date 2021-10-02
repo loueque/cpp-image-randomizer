@@ -2,8 +2,9 @@
 #include <fstream>
 #include <vector>
 
+enum Evens { two = 2, four = 4, six = 6 };
+
 int main() {
-	std::vector<int> evens = {2, 4, 6, 8, 10};
-	std::vector<int> odds = {1, 3, 5, 7, 9};
-	return 0;
+	Evens e = two;
+	std::cout << e << std::endl;
 }
