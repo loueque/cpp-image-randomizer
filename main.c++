@@ -3,7 +3,7 @@
 #include <string>
 #include <deque>
 
-int main(int args) {
+int main() {
 	std::string fileName;
 	std::cout << "Input file name\n";
 	std::cin >> fileName;
